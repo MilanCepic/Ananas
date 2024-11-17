@@ -2,6 +2,8 @@
 
 ## 1. Selenium IDE Test
 - **Ananas1**
+### Prerequisites
+- [Selenium IDE Installation](https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en&pli=1)
 ---
 ## 2. Playwright Automation with JavaScript
 

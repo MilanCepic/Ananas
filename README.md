@@ -1,6 +1,9 @@
 # Ananas
-Selenium IDE
+Selenium IDE Test Ananas1
+
+
 Playwright Automation with JavaScript
+
 Intoduction
 This project provides a framework for automating frontend and backend tests using Playwright with JavaScript.
 
@@ -8,6 +11,8 @@ Prerequisites
 Node.js (v14 or above)
 npm or yarn
 Playwright (@playwright/test)
+
+
 Setup:
 1. Install Dependencies:
 npm install
@@ -15,7 +20,3 @@ npm install
 npx playwright install
 3. Running Tests:
 npm test
-This repository has the next folder structure
-'tests'
-frontend
-backend

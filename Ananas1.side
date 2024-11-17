@@ -1,0 +1,234 @@
+{
+  "id": "d843f51a-edcb-4fa0-986e-807b8bff0720",
+  "version": "2.0",
+  "name": "Ananas4",
+  "url": "https://ananas.rs",
+  "tests": [{
+    "id": "d2ee324a-0ff9-428b-a0cf-52dcc0e25b15",
+    "name": "Ananas 4",
+    "commands": [{
+      "id": "53eaca80-319b-42a6-a9e9-098d0d2bafa5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10914573-c516-43cf-9921-ed76b371a17a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1920x1080",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09d5e34d-e96c-4f25-be22-173fdfbc867f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=TV",
+      "targets": [
+        ["linkText=TV", "linkText"],
+        ["css=.sc-ht0kga-5:nth-child(5) > .sc-180pjr6-0", "css:finder"],
+        ["xpath=(//a[contains(text(),'TV')])[3]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[4]/div/header/div[4]/div/section/div/nav/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/kategorije/tv-audio-i-video/tv/televizori')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fe5ffb31-aa60-48b6-8161-9fbccbc852ad",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=autocomplete-290-input", "id"],
+        ["css=#autocomplete-290-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-290-input']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[4]/div/header/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e23771c2-c8bf-4d86-a093-3800abf3b782",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=//input",
+      "targets": [
+        ["id=autocomplete-290-input", "id"],
+        ["css=#autocomplete-290-input", "css:finder"],
+        ["xpath=//input[@id='autocomplete-290-input']", "xpath:attributes"],
+        ["xpath=//div[@id='__next']/div[5]/div/header/div[2]/div/div/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "patike"
+    }, {
+      "id": "2e0cf296-d402-45f2-b1e5-2437143fd1c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-12l9tvf-1 > svg",
+      "targets": [
+        ["css=.sc-12l9tvf-1 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "74a11159-631e-4b71-ab13-9089c4b40267",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-12l9tvf-1 > svg",
+      "targets": [
+        ["css=.sc-12l9tvf-1 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e1285bd-c5be-4013-89bb-37acb2367362",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.sc-12l9tvf-1 > svg",
+      "targets": [
+        ["css=.sc-12l9tvf-1 > svg", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "7219b4f3-fa26-46a4-9562-f51bbc373657",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.sc-12l9tvf-1",
+      "targets": [
+        ["css=.sc-12l9tvf-1", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div/header/div[2]/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e06d7ca8-cea0-4efe-ac0f-d40156515bd8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ais-Hits-item:nth-child(1) .sc-p2x5ss-0",
+      "targets": [
+        ["css=.ais-Hits-item:nth-child(1) .sc-p2x5ss-0", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div[3]/div/div[3]/div[2]/ul/li/div/div/button", "xpath:idRelative"],
+        ["xpath=//li/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "725e8b4f-e214-45ef-8502-34660fd38611",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2002)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ef2c15b-2ba9-40a0-b817-40e418c76f21",
+      "comment": "",
+      "command": "click",
+      "target": "css=a:nth-child(4) > .sc-hj4qyi-0 > span",
+      "targets": [
+        ["css=a:nth-child(4) > .sc-hj4qyi-0 > span", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div[3]/div/div[3]/div[3]/ul/a[2]/li/span", "xpath:idRelative"],
+        ["xpath=//a[2]/li/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dce84f26-31a2-4f46-93dd-dce3133c7336",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2546)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24f3ed43-566b-45db-84cd-f0c91d09b0d5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=›",
+      "targets": [
+        ["linkText=›", "linkText"],
+        ["css=.ais-Pagination-item--nextPage > .ais-Pagination-item", "css:finder"],
+        ["xpath=//a[contains(text(),'›')]", "xpath:link"],
+        ["xpath=//div[@id='__next']/div[4]/div[3]/div/div[3]/div[3]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://ananas.rs/search?query=patike&page=3')])[2]", "xpath:href"],
+        ["xpath=//div[3]/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'›')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1803320-ce54-4a01-afc3-dc3fc5322756",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1213)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7a6cdf0-44a0-4437-9cc0-38add2d444bf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ais-Hits-item:nth-child(48) .sc-492kdg-4 img",
+      "targets": [
+        ["css=.ais-Hits-item:nth-child(48) .sc-492kdg-4 img", "css:finder"],
+        ["xpath=//img[@alt='Xti Ženske patike 42562, Bež']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[4]/div[3]/div/div[3]/div[2]/ul/li[48]/div/div/a/div/div/span[2]/img", "xpath:idRelative"],
+        ["xpath=//li[48]/div/div/a/div/div/span[2]/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3ef331a-8bd5-4f96-8f1a-4924cdc3f969",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c7bd581-c93c-4323-8dd0-07d203c9e126",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1x6ek2s-23 path",
+      "targets": [
+        ["css=.sc-1x6ek2s-23 path", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc2370e1-f401-43d0-9f9b-a8aeddbfafed",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-vay2xn-2:nth-child(2) img",
+      "targets": [
+        ["css=.sc-vay2xn-2:nth-child(2) img", "css:finder"],
+        ["xpath=//img[@alt='1 thumbnail image for Xti Ženske patike 42562, Bež']", "xpath:img"],
+        ["xpath=//div[@id='__next']/div[4]/div[3]/div[2]/div/div/div/div/div/div[2]/span/img", "xpath:idRelative"],
+        ["xpath=//div[2]/span/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1616c34e-4b3f-4d60-b273-8990f7f421a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1x6ek2s-1 > .fresnel-container > div:nth-child(1)",
+      "targets": [
+        ["css=.sc-1x6ek2s-1 > .fresnel-container > div:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div[3]/div[2]/div[2]/div/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae36797-c875-4215-a89d-9eaaa966cadf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-1x6ek2s-4",
+      "targets": [
+        ["css=.sc-1x6ek2s-4", "css:finder"],
+        ["xpath=//div[@id='__next']/div[4]/div[3]/div[2]/div[2]/div/div/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Xti Ženske patike 42562, Bež')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cbf5db59-5822-4c56-941c-de774771a173",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d2ee324a-0ff9-428b-a0cf-52dcc0e25b15"]
+  }],
+  "urls": ["https://ananas.rs/"],
+  "plugins": []
+}

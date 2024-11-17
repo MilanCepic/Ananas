@@ -1,6 +1,10 @@
 # Ananas
 
 ## 1. Selenium IDE Test
+
+### Introduction
+This project provides a framework for automating frontend tests using the Selenium IDE Chrome extension.
+
 - **Ananas1**
 ### Prerequisites
 - [Selenium IDE Installation](https://chromewebstore.google.com/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd?hl=en&pli=1)
